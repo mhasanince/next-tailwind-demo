@@ -3,6 +3,8 @@ import { Suspense } from 'react';
 import Movies from '@/views/movies';
 import MoviesSkeleton from '@/views/movies/skeleton';
 
+export const dynamic = 'force-dynamic';
+
 export default function Page() {
   return (
     <div className="container my-6">
